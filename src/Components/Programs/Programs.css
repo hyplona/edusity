@@ -49,3 +49,13 @@
 .program:hover .caption img {
     transform: scale(1.2);
 }
+
+@media (max-width: 650px){
+    .programs{
+        flex-direction: coloumn;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
